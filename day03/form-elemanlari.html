@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanlari</title>
+</head>
+<body>
+    <h1>Form Elemanlari</h1>
+    <form action="user/update" method="post">
+<label for="ad">Adiniz:</label>
+<input type="text" id="ad">
+<br><br>
+
+<label for="soyadi">Soyadiniz:</label> <!-- shift alt a -->
+<input type="text" id="soyadi">
+<br><br>
+
+<label for="yas">Yasiniz:</label>
+<input type="button" id="yas">
+<br><br>
+
+<label for="eposta" aria-required="true" >Eposta adresiniz:</label>
+<input type="email" id="eposta">
+<br><br>
+
+<label for="sifre">Sifreniz:</label>
+<input type="password" id="sifre">
+<br><br>
+
+<label for="cinsiyet">Cinsiyetiniz Seciniz:</label>
+<br>
+<label for="bay">Bay</label>
+<input type="radio" name="cins" id="bay">
+<label for="bayan">Bayan</label>
+<input type="radio" name="cins" id="bayan">
+<br><br>
+
+<label>Hobileriniz :</label>
+<br>
+<label for="spor">Spor</label>
+<input type="checkbox" id="spor">
+<label for="muzik">Muzik</label>
+<input type="checkbox" id="muzik">
+<label for="gezi">Gezi</label>
+<input type="checkbox" id="gezi">
+<br><br>
+<label for="tarih">Dogum Tarihiniz :</label>
+<input type="date" id="tarih">
+<br><br>
+
+<label for="renk">Sevdiginiz renk :</label>
+<input type="color" id="renk">
+<br><br>
+
+<label for="dosya">CV'nizi Ekleyiniz :</label>
+<input type="file" id="dosya">
+
+<br><br>
+<label for="kurs">Hangi kursu alamk istiyorsun?</label>
+<select id="kurs">
+    <option value="00">Seciniz</option>
+    <option value="01">Java Developer</option>
+    <option value="02">Front-End Developer</option>
+    <option value="03">Back-End Developer</option>
+</select>
+<br><br>
+
+<label for="mesaj">Kendinizden Bahsedin:</label>
+<br><br>
+<textarea id="mesaj" cols="30" rows="10">Mesajinizi Yaziniz.</textarea>
+<br><br>
+
+<input type="button" value="Button">
+<input type="submit" value="Formu Gonder">
+<input type="reset" value="Formu Temizle">
+
+
+
+
+
+<br><br><br>
+
+<button>Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    color: aquamarine;
+}
+
+div{
+    background-color: bisque;
+  }
+
+  #bolum1{
+    border: 2px solid purple;
+    margin-bottom: 20px;
+  }
+  #bolum2{
+    border: 2px dotted red;
+  }
+
+  .tirnaksiz{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .tirnakli{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  h1.tirnaksiz{
+    color: rgb(29, 199, 199);
+  }
+  div#bolum1{
+    font-style: italic;
+  }
+
+  h1,h2{
+    text-decoration: underline;
+  }
+
